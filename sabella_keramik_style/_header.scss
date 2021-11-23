@@ -1,0 +1,30 @@
+#site-header {
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: $header-color;
+    color: $color-text-alt;
+    display: flex;
+    * {
+        color: $color-text-alt;
+    }
+    #site-logo {
+        flex: 1;
+        font-size: 1rem;
+        margin-left: 30px;
+        ;
+    }
+    #icon img {
+        height: 40px;
+        width: 40px;
+        margin-right: 20px;
+        ;
+    }
+}
+
+#site-logo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
