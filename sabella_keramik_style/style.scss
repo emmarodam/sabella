@@ -16,7 +16,7 @@ $header-font:'Elsie';
     scroll-behavior: smooth;
     #site-video {
         background-image: url("image/hero-image.webp");
-        height: 80vh;
+        height: 93vh;
         h1 {
             color: $color-text-white;
             text-align: center;
@@ -79,6 +79,10 @@ $header-font:'Elsie';
         h2 {
             font-family: $header-font;
             font-weight: 500;
+            font-size: 2rem;
+        }
+        p {
+            padding: 0 10%;
         }
     }
     #site-shortcut {
