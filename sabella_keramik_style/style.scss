@@ -17,6 +17,8 @@ $header-font:'Elsie';
     #site-video {
         background-image: url("image/hero-image.webp");
         height: 93vh;
+        background-position: center;
+        filter: brightness(70%);
         h1 {
             color: $color-text-white;
             text-align: center;
@@ -30,7 +32,7 @@ $header-font:'Elsie';
             border-radius: 25px;
             background-color: black;
             border: none;
-            margin-top: 5%;
+            margin-top: 2%;
             margin-bottom: 5%;
         }
         #one {
@@ -56,6 +58,7 @@ $header-font:'Elsie';
             height: 100px;
             margin-left: 50%;
             transform: translate(-50%);
+            margin-top: 30vh;
         }
     }
     #site-about {
