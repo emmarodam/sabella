@@ -1,0 +1,48 @@
+#site-flex {
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #pic1 {
+      display: block;
+      width: 300px;
+      padding: 5%;
+      height: 300px;
+      background-image: url("image/billede1.png");
+      background-size: cover;
+    }
+
+    #pic2 {
+        display: block;
+        width: 300px;
+        padding: 5%;
+        height: 300px;
+        background-image: url("image/billede2.png");
+        background-size: cover;
+      }
+
+      #pic3 {
+          display: block;
+          width: 300px;
+          padding: 5%;
+          height: 300px;
+          background-image: url("image/billede3.png");
+          background-size: cover;
+        }
+
+        #pic4 {
+            display: block;
+            width: 300px;
+            padding: 5%;
+            height: 300px;
+            background-image: url("image/billede4.png");
+            background-size: cover;
+          }
+
+a:hover {
+  opacity: 0.75;
+}
