@@ -127,7 +127,10 @@ $header-font:'Elsie';
         line-height: 30px;
         margin-top: 100px;
     }
-    #site-grid {
+
+    @import "_contact.scss";
+
+/*  #site-grid {
         margin: 50px 15%;
         display: grid;
         height: 700px;
@@ -149,7 +152,7 @@ $header-font:'Elsie';
             grid-area: pic3;
             background-image: url("image/photo-1595351298020-038700609878.webp");
             background-size: cover;
-        }
+        }*/
     }
 }
 
