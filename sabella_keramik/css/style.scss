@@ -5,8 +5,8 @@ $color-btn-one:rgb(233, 231, 231);
 $color-btn-two:#A86674;
 $color-shortcut:#A9D0D8;
 $header-font:'Elsie';
-;
 @import "_header.scss";
+// @import "_burgerbar.scss";
 * {
     box-sizing: border-box;
     list-style: none;
