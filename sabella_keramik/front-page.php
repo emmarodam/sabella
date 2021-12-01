@@ -1,16 +1,6 @@
 <?php get_header(); ?>
 <div class="site-wrapper">
-        <header id="site-header">
-            <h1 id="site-logo">
-                <a href="index.html"><img src="image/logo.png" alt=""></a>
-            </h1>
-
-            <section id="icon">
-                <img src="image/heart.png" alt="">
-                <img src="image/shopping-cart.png" alt="">
-                <img src="image/burgerbar.png" alt="">
-            </section>
-        </header>
+        
         <main>
             <section>
                 <div id="site-video">

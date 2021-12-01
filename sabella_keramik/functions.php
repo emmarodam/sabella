@@ -23,7 +23,7 @@ if (class_exists('WooCommerce')) {
 
 
     // Remove WooCommerce Styles
-    add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+    // add_filter( 'woocommerce_enqueue_styles', '__return_false' );
 
     add_filter( 'woocommerce_show_page_title', '__return_false' );
 
