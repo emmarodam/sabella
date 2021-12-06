@@ -30,20 +30,20 @@
                 <h1>Populære kategorier</h1>
             </div>
             <div id="flexbox">
-                <div>
-                    <div id="shortcut-icon"></div>
+                <div >
+                    <div class="shortcut-icon" id="icon-one"></div>
                     <h2>lille skål</h2>
                 </div>
-                <div class="icon-two">
-                    <div id="shortcut-icon"></div>
+                <div >
+                    <div class="shortcut-icon" class="icon-two"></div>
                     <h2>Stor skål</h2>
                 </div>
-                <div class="icon-tree">
-                    <div id="shortcut-icon"></div>
+                <div >
+                    <div class="shortcut-icon" class="icon-tree"></div>
                     <h2>Kop uden hank</h2>
                 </div>
-                <div class="icon-four">
-                    <div id="shortcut-icon"></div>
+                <div>
+                    <div class="shortcut-icon" class="icon-four"></div>
                     <h2>Kop med hank</h2>
                 </div>
             </div>

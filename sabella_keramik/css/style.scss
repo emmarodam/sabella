@@ -109,12 +109,6 @@ $header-font:'Elsie';
             font-weight: 500;
             font-size: 2rem;
         }
-        #shortcut-icon {
-            background-color: white;
-            border-radius: 100px;
-            height: 200px;
-            width: 200px;
-        }
         #flexbox {
             display: flex;
             gap: 5rem;
@@ -126,6 +120,29 @@ $header-font:'Elsie';
                 font-size: 1.2rem;
                 font-weight: 400;
                 margin-top: 5px;
+            }
+            .shortcut-icon {
+                border-radius: 100px;
+                height: 200px;
+                width: 200px;
+                background-image: url("../image/portrait.webp");
+                background-size: cover;
+            }
+            #icon-one {
+                background-image: url("../image/vase.png");
+                background-size: cover;
+            }
+            .icon-two {
+                background-image: url("../image/krus.png");
+                background-size: cover;
+            }
+            .icon-tree {
+                background-image: url("../image/stor.png");
+                background-size: cover;
+            }
+            .icon-four {
+                background-image: url("../image/lille.png");
+                background-size: cover;
             }
         }
     }
