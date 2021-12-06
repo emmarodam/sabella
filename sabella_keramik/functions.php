@@ -1,14 +1,14 @@
 <?php 
-function mycustomtheme() {
+function sabella() {
     wp_register_style( 'custom_css', get_template_directory_uri() . '/css/style.css', false, '1.0.0' );
     wp_enqueue_style( 'custom_css' );
 }
-add_action( 'wp_enqueue_scripts', 'mycustomtheme' );
+add_action( 'wp_enqueue_scripts', 'sabella' );
 
-function my_custom_menu () {
-    register_nav_menu('my-custom-menu',__('MyCustomTheme Custom Menu', 'mycustomtheme'));
+function sabella_custom_menu () {
+    register_nav_menu('header-menu',__('sabella Custom Menu', 'mycustommenu'));
 }
-add_action('init', 'my_custom_menu'); 
+add_action('init', 'sabella_custom-menu'); 
 
 add_theme_support('post-thumbnails');
 

@@ -35,15 +35,15 @@
                     <h2>lille skål</h2>
                 </div>
                 <div >
-                    <div class="shortcut-icon" class="icon-two"></div>
+                    <div class="shortcut-icon" id="icon-two"></div>
                     <h2>Stor skål</h2>
                 </div>
                 <div >
-                    <div class="shortcut-icon" class="icon-tree"></div>
+                    <div class="shortcut-icon" id="icon-tree"></div>
                     <h2>Kop uden hank</h2>
                 </div>
                 <div>
-                    <div class="shortcut-icon" class="icon-four"></div>
+                    <div class="shortcut-icon" id="icon-four"></div>
                     <h2>Kop med hank</h2>
                 </div>
             </div>

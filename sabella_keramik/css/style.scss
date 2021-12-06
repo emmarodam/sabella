@@ -74,7 +74,7 @@ $header-font:'Elsie';
         #main {
             height: 600px;
             width: 100%;
-            background-image: url("../image/portrait.webp");
+            background-image: url("../image/portrait.jpg");
             background-size: cover;
         }
         #about-text {
@@ -125,22 +125,20 @@ $header-font:'Elsie';
                 border-radius: 100px;
                 height: 200px;
                 width: 200px;
-                background-image: url("../image/portrait.webp");
-                background-size: cover;
             }
             #icon-one {
                 background-image: url("../image/vase.png");
                 background-size: cover;
             }
-            .icon-two {
+            #icon-two {
                 background-image: url("../image/krus.png");
                 background-size: cover;
             }
-            .icon-tree {
+            #icon-tree {
                 background-image: url("../image/stor.png");
                 background-size: cover;
             }
-            .icon-four {
+            #icon-four {
                 background-image: url("../image/lille.png");
                 background-size: cover;
             }

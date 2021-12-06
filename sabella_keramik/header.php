@@ -20,7 +20,7 @@
             
             <?php
                 wp_nav_menu( array(
-                    'theme_location' => 'top-menu',
+                    'theme_location' => 'header-menu',
                     'container' => false
                 ));
             ?>
@@ -43,7 +43,7 @@
 
         <?php
             wp_nav_menu( array(
-                'theme_location' => 'top-menu',
+                'theme_location' => 'header-menu',
                 'container' => false
             ));
         ?>
