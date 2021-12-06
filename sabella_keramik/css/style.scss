@@ -14,8 +14,11 @@ $header-font:'Elsie';
     padding: 0;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    a {
+        color: white;
+    }
     #site-video {
-        background-image: url("image/hero-image.webp");
+        background-image: url("../image/hero-image.webp");
         height: 93vh;
         background-position: center;
         h1 {
@@ -53,11 +56,14 @@ $header-font:'Elsie';
             gap: 5rem;
             justify-content: center;
         }
-        #arow img {
+        #arow {
             height: 100px;
+            width: 100px;
             margin-left: 50%;
+            margin-top: 10vh;
             transform: translate(-50%);
-            margin-top: 25vh;
+            background-image: url("../image/white-down-arrow-png-2.png");
+            background-size: cover;
         }
     }
     #site-about {
@@ -65,9 +71,11 @@ $header-font:'Elsie';
         display: flex;
         margin-left: 30%;
         transform: translate(-20%);
-        img {
+        #main {
             height: 600px;
             width: 100%;
+            background-image: url("../image/portrait.webp");
+            background-size: cover;
         }
         #about-text {
             background-color: $color-btn-two;
@@ -137,17 +145,17 @@ $header-font:'Elsie';
         grid-template-areas: "pic1 pic2" "pic1 pic3";
         #pic1 {
             grid-area: pic1;
-            background-image: url("image/photo-1610128361323-6e941c97f023.webp");
+            background-image: url("../image/photo-1610128361323-6e941c97f023.webp");
             background-size: cover;
         }
         #pic2 {
             grid-area: pic2;
-            background-image: url("image/photo-1610701596007-11502861dcfa.webp");
+            background-image: url("../image/photo-1610701596007-11502861dcfa.webp");
             background-size: cover;
         }
         #pic3 {
             grid-area: pic3;
-            background-image: url("image/photo-1595351298020-038700609878.webp");
+            background-image: url("../image/photo-1595351298020-038700609878.webp");
             background-size: cover;
         }
     }

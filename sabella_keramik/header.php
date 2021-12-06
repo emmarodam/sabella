@@ -9,7 +9,7 @@
 
     <header class="main-header">
         <div class="main-header__logo">
-            <a href="/">Guard.</a>
+            <a href="/">Sabella Keramik</a>
         </div>
 
         <nav class="main-header__nav">

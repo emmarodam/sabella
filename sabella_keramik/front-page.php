@@ -9,8 +9,8 @@
                         <button id="one"><a href="">Se video</a></button>
                         <button id="two"><a href="">Shop</a></button>
                     </div>
-                    <div id="arow">
-                        <a href="#main"><img src="image/white-down-arrow-png-2.png" alt=""></a>
+                    <div id="arow" class="arow_down">
+                        <a href="#main" ></a>
 
                     </div>
             </section>
@@ -18,7 +18,7 @@
         </div>
 
         <section id="site-about">
-            <div id="main"><img src="image/portrait.webp" alt=""></div>
+            <div id="main"></div>
             <div id="about-text"><br><br><br><br>
                 <h2>Hi, mit navn er Isabella</h2><br>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis ipsam, suscipit unde nulla tempore a ad magnam aspernatur vitae delectus voluptates obcaecati accusamus quia laudantium aliquam tempora in asperiores? <br> <br> Lorem
