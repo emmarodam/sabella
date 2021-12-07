@@ -5,10 +5,10 @@ function sabella() {
 }
 add_action( 'wp_enqueue_scripts', 'sabella' );
 
-function sabella_custom_menu () {
+//function sabella_custom_menu () {
     register_nav_menu('header-menu',__('sabella Custom Menu', 'mycustommenu'));
-}
-add_action('init', 'sabella_custom-menu'); 
+//}
+//add_action('init', 'sabella_custom_menu'); 
 
 add_theme_support('post-thumbnails');
 
