@@ -1,0 +1,45 @@
+footer {
+  background-color: #7C013E;
+  margin: 0%;
+
+}
+
+.footer{
+    color: white;
+    width: 90%;
+    padding: 5%;
+    margin-left: 5%;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+}
+
+.footer1 {
+  width: 30%;
+}
+
+.footer2 {
+  width: 30%;
+}
+
+.footer3 {
+  width: 30%;
+}
+
+.some-icons {
+  color: white;
+  font-size: 200%;
+  padding: 2%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#copyright {
+  text-align: center;
+  padding: 3%;
+  color: white;
+}
