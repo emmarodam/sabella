@@ -162,17 +162,17 @@ $header-font:'Elsie';
         grid-template-areas: "pic1 pic2" "pic1 pic3";
         #pic1 {
             grid-area: pic1;
-            background-image: url("../image/photo-1610128361323-6e941c97f023.webp");
+            background-image: url("../image/billede1.png");
             background-size: cover;
         }
         #pic2 {
             grid-area: pic2;
-            background-image: url("../image/photo-1610701596007-11502861dcfa.webp");
+            background-image: url("../image/billede2.png");
             background-size: cover;
         }
         #pic3 {
             grid-area: pic3;
-            background-image: url("../image/photo-1595351298020-038700609878.webp");
+            background-image: url("../image/billede3.png");
             background-size: cover;
         }
     }
