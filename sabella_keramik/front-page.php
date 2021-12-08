@@ -3,7 +3,8 @@
         
         <main>
             <section>
-                <div id="site-video">
+                <div id="site-video"> 
+                    <!-- <video width="300" height="200" controls muted loop autoplay src="/image/sabella_keramik_video.mp4"></video> -->
                     <h1>Sabella Keramik</h1>
                     <div id="flex">
                         <button id="one"><a href="">Se video</a></button>
@@ -58,38 +59,6 @@
             <div id="pic3"></div>
         </section>
 
-        <footer id="site-footer">
-            <div>
-                <ul>
-                    <li>
-                        <a href="">Shop</a>
-                    </li>
-                    <li>
-                        <a href="">Om mig</a>
-                    </li>
-                    <li>
-                        <a href="">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="">E-mail</a>
-                    </li>
-                    <li>
-                        <a href="">Tlf:</a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div id="icon-facebook">
-                <a href=""></a>
-            </div>
-            <div id="icon-instergram">
-                <a href=""></a>
-            </div>
-        </footer>
+        
     </div>
 <?php get_footer(); ?>
