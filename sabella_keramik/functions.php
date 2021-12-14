@@ -1,4 +1,4 @@
-<?php 
+<?php
 function sabella() {
     wp_register_style( 'custom_css', get_template_directory_uri() . '/css/style.css', false, '1.0.0' );
     wp_enqueue_style( 'custom_css' );
